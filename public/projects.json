@@ -1,0 +1,37 @@
+[
+  {
+    "title": "PAE Website",
+    "description": "During my internship, I developed a website using ReactJS, next.js, and Tailwind CSS. ",
+    "codeLink": "",
+    "imageFile": "PAE.jpeg",
+    "projectSite":""
+  },
+  {
+    "title": "Blur Face",
+    "description": "A project that explores the process of blurring artificial intelligence, presented as a university term paper. I developed the front-end of this website using Django.",
+    "codeLink": "https://github.com/hsemihaktas/BlurryFace",
+    "imageFile": "BlurFace.png",
+    "projectSite":""
+  },
+  {
+    "title": "Riot Twitch Bot",
+    "description": "We are collaborating on a Twitch chatbot that utilizes Node.js and the Axios library to access the Riot Games API. The chatbot aims to furnish Twitch viewers with up-to-date in-game data for both 'League of Legends' and 'Teamfight Tactics' matches.",
+    "codeLink": "https://github.com/hsemihaktas/RiotTwitchBot",
+    "imageFile": "RiotTwicthBot.png",
+    "projectSite":""
+  },
+  {
+    "title": "Riot Twitch Bot Website",
+    "description": "The site I created allows everyone to recognise the RiotTwitchBot we're making.",
+    "codeLink": "https://github.com/hsemihaktas/RiotTwitchBotWebsite",
+    "imageFile": "RiotTwitchBotWebsite.png",
+    "projectSite":"https://riottwitchbot.vercel.app/"
+  },
+  {
+    "title": "Estate Website",
+    "description": "In this project, my objective was to create a real estate website to self-teach myself mysql operations. Employing Reactjs, nodejs, and mysql, I executed functions such as adding, editing, deleting, viewing, and sorting advertisements.",
+    "codeLink": "https://github.com/hsemihaktas/EstateWebsite",
+    "imageFile": "EstateWebsite.png",
+    "projectSite":""
+  }
+]
