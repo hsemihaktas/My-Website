@@ -3,7 +3,7 @@ import React from "react";
 const ProjeCard = ({ project }) => {
   return (
     <>
-      <div className="lg:w-full h-auto p-6 m-5 shadow-xl hover:shadow-2xl hover:scale-110 transition-all transform duration-500">
+      <div className="lg:w-full bg-[#262626] h-auto p-6 my-10 shadow-lg hover:shadow-xl hover:scale-110 transition-all transform duration-500">
         <div className="flex items-start">
           {project.imageFile && (
             <img
