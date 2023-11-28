@@ -34,7 +34,7 @@ export const SocialIcons = () => {
               </div>
             </a>
             <a
-              href="mailto:info.hsemihaktas@gmail.com"
+              href="mailto:hsemihaktas@gmail.com"
               target="blank"
               className="social-margin"
             >
