@@ -7,6 +7,13 @@
     "projectSite":""
   },
   {
+    "title": "Now Yapı Website",
+    "description": "The objective of this project is to construct a site for Now Yapı company. ReactJS and Tailwind CSS were utilised in the development process.",
+    "codeLink": "",
+    "imageFile": "NowYapı.jpeg",
+    "projectSite":"https://nowyapi.com/"
+  },
+  {
     "title": "Blur Face",
     "description": "A project that explores the process of blurring artificial intelligence, presented as a university term paper. I developed the front-end of this website using Django.",
     "codeLink": "https://github.com/hsemihaktas/BlurryFace",

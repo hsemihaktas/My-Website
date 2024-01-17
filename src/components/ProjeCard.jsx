@@ -17,14 +17,14 @@ const ProjeCard = ({ project }) => {
             <p className="text-sm mt-2 text-white">{project.description}</p>
           </div>
         </div>
-        <div className="mt-4 mb-2 flex">
+        <div className="mt-4 mb-2 flex flex-row-reverse gap-2">
           {project.codeLink && (
-            <button className="text-sm lg:text-lg block font-semibold py-2 px-2 lg:px-6 text-white hover:bg-orange-600 bg-orange-400 rounded-lg shadow hover:shadow-md transition duration-300 ml-auto">
+            <button className="text-sm lg:text-lg block font-semibold py-2 px-2 lg:px-6 text-white hover:bg-orange-600 bg-orange-400 rounded-lg shadow hover:shadow-md transition duration-300">
               <a href={project.codeLink}>Code...</a>
             </button>
           )}
           {project.projectSite && (
-            <button className="text-sm lg:text-lg block font-semibold py-2 px-2 lg:px-6 text-white hover:bg-orange-600 bg-orange-400 rounded-lg shadow hover:shadow-md transition duration-300 ml-2">
+            <button className="text-sm lg:text-lg block font-semibold py-2 px-2 lg:px-6 text-white hover:bg-orange-600 bg-orange-400 rounded-lg shadow hover:shadow-md transition duration-300">
               <a href={project.projectSite}>Website...</a>
             </button>
           )}
