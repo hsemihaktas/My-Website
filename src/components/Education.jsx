@@ -6,7 +6,7 @@ export const Education = () => {
       <div className="py-3">
         <div className="text-5xl py-2">Education</div>
         <div className="text-2xl flex text-[#df9100]">
-          <span className="flex-grow">İstanbul Medeniyet Üniversity</span>
+          <span className="flex-grow">İstanbul Medeniyet University</span>
           <span className="ml-auto">3.21/4</span>
         </div>
         <div className="text-lg">
