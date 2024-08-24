@@ -8,8 +8,8 @@ import { faFile } from "@fortawesome/free-regular-svg-icons";
 export const SocialIcons = () => {
   const handleDownload = () => {
     const anchor = document.createElement("a");
-    anchor.href = "/cv.pdf";
-    anchor.download = "HasanSemihAktasCV.pdf";
+    anchor.href = "/Hasan_Semih_Aktas_Front_End_Developer_CV.pdf";
+    anchor.download = "Hasan_Semih_Aktas_Front_End_Developer_CV.pdf";
     anchor.click();
   };
   return (

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
   .changeText {
-    color: #df9100;
+    color: #4F709C;
   }
   .cursor {
     display: inline-block;
@@ -95,4 +95,13 @@ a,a:hover,a:focus,a:active {
 .file:hover {
   background-color: #ffffff;
   color: #121212;
+}
+.custom-list {
+  list-style-type: none; 
+}
+
+.custom-list li::before {
+  content: "-"; 
+  margin-right: 2px; 
+  color: #213555; 
 }

@@ -22,7 +22,7 @@
   },
   {
     "title": "Riot Twitch Bot",
-    "description": "We are collaborating on a Twitch chatbot that utilizes Node.js and the Axios library to access the Riot Games API. The chatbot aims to furnish Twitch viewers with up-to-date in-game data for both 'League of Legends' and 'Teamfight Tactics' matches.",
+    "description": "We are collaborating on a Twitch chatbot that utilizes Node.js and the Axios library to access the Riot Games API. The chatbot aims to furnish Twitch viewers with up to date in game data for both 'League of Legends' and 'Teamfight Tactics' matches.",
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBot",
     "imageFile": "RiotTwicthBot.png",
     "projectSite":""
@@ -35,7 +35,7 @@
     "projectSite":"https://riottwitchbot.vercel.app/"
   },
   {
-    "title": "Estate Website",
+    "title": "Property Website",
     "description": "In this project, my objective was to create a real estate website to self-teach myself mysql operations. Employing Reactjs, nodejs, and mysql, I executed functions such as adding, editing, deleting, viewing, and sorting advertisements.",
     "codeLink": "https://github.com/hsemihaktas/EstateWebsite",
     "imageFile": "EstateWebsite.png",

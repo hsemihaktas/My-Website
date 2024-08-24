@@ -5,7 +5,7 @@ export const Education = () => {
     <>
       <div className="py-3">
         <div className="text-5xl py-2">Education</div>
-        <div className="text-2xl flex text-[#df9100]">
+        <div className="text-2xl flex text-[#4F709C]">
           <span className="flex-grow">İstanbul Medeniyet University</span>
           <span className="ml-auto">3.21/4</span>
         </div>

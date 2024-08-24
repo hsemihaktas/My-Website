@@ -4,10 +4,10 @@ export const About = () => {
   return (
     <>
       <div className="py-3 w-full">
-        <div className="text-5xl pb-2">
-          Who is <span className="text-[#df9100]">Semih</span>?
+        <div className="text-5xl pb-2 ">
+          Who is <span className="text-[#4F709C]">Semih</span>?
         </div>
-        <div className="text-lg">
+        <div className="text-lg ">
           As a Front-End developer specializing in ReactJS and JavaScript, my
           commitment to creating distinctive user experiences and staying
           up-to-date with the latest technology trends distinguishes me. I aim
