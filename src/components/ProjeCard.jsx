@@ -3,16 +3,16 @@ import React from "react";
 const ProjeCard = ({ project }) => {
   return (
     <>
-      <div className="lg:w-full bg-[#D8C4B6] h-auto p-6 my-10 shadow-lg hover:shadow-xl hover:scale-110 transition-all transform duration-500">
-        <div className="flex items-start">
+      <div className="lg:w-full bg-[#D8C4B6] h-auto p-10 my-10 shadow-lg hover:shadow-xl hover:scale-110 transition-all transform duration-500">
+        <div className="flex items-start ">
           {project.imageFile && (
             <img
-              className="w-32 h-32 object-contain mr-4"
+              className="w-1/3 h-64 object-contain mr-4 my-auto"
               src={require(`../images/${project.imageFile}`)}
               alt={project.baslik}
             />
           )}
-          <div className="flex flex-col">
+          <div className="flex flex-col w-2/3">
             <h1 className="text-2xl font-bold text-[#213555]">
               {project.title}
             </h1>

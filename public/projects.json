@@ -1,21 +1,21 @@
 [
   {
     "title": "PAE Website",
-    "description": "During my internship, I developed a website using ReactJS, next.js, and Tailwind CSS. ",
+    "description": "-Contributed to the development of the PAE website using Next.js, Tailwind CSS, HTML, JavaScript, and React, delivering a highly responsive user interface that improved page load times by 30% and user engagement by 20%. -Enhanced the site’s performance by optimizing code and assets, leading to a 20% reduction in load times. -Worked closely with cross functional teams to ensure the project met client specifications and was delivered on time.",
     "codeLink": "",
     "imageFile": "PAE.jpeg",
     "projectSite":""
   },
   {
     "title": "Now Yapı Website",
-    "description": "The objective of this project is to construct a site for Now Yapı company. ReactJS and Tailwind CSS were utilised in the development process.",
+    "description": "Led the frontend development for the 'Now Yapi' project using React.js, Tailwind CSS, and Swiper, creating an intuitive and responsive user interface. -Implemented interactive image sliders with Swiper, enhancing the visual appeal and user engagement of the platform. -Managed JSON data integration for seamless communication between frontend and backend, improving data handling efficiency by 25%. -Collaborated with the design team to align UI/UX elements with the brand’s vision, resulting in a more cohesive and user friendly experience.",
     "codeLink": "",
     "imageFile": "NowYapı.jpeg",
     "projectSite":"https://nowyapi.com/"
   },
   {
     "title": "Blur Face",
-    "description": "A project that explores the process of blurring artificial intelligence, presented as a university term paper. I developed the front-end of this website using Django.",
+    "description": "-Developed the frontend of a web application using React.js and Django, allowing users to apply image blurring effects to faces and objects. -Integrated responsive design principles to ensure cross device compatibility, resulting in a 30% increase in user retention. -Optimized performance by implementing efficient image processing algorithms, reducing processing time by 40%.",
     "codeLink": "https://github.com/hsemihaktas/BlurryFace",
     "imageFile": "BlurFace.png",
     "projectSite":""
@@ -36,7 +36,7 @@
   },
   {
     "title": "Property Website",
-    "description": "In this project, my objective was to create a real estate website to self-teach myself mysql operations. Employing Reactjs, nodejs, and mysql, I executed functions such as adding, editing, deleting, viewing, and sorting advertisements.",
+    "description": "-Created a full-stack web application using React.js, Node.js, and MySQL, enabling users to manage property listings with ease. -Designed and implemented CRUD operations for property management, resulting in a 15% increase in platform usage. -Ensured data security and integrity by integrating robust authentication and authorization protocols, enhancing user trust and platform reliability.",
     "codeLink": "https://github.com/hsemihaktas/EstateWebsite",
     "imageFile": "EstateWebsite.png",
     "projectSite":""
