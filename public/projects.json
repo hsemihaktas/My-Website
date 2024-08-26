@@ -22,14 +22,14 @@
   },
   {
     "title": "Riot Twitch Bot",
-    "description": "We are collaborating on a Twitch chatbot that utilizes Node.js and the Axios library to access the Riot Games API. The chatbot aims to furnish Twitch viewers with up to date in game data for both 'League of Legends' and 'Teamfight Tactics' matches.",
+    "description": "-Developed a Twitch chatbot using Node.js and the Axios library to interact with the Riot Games API. -Provided real time in game data for League of Legends and Teamfight Tactics matches, enhancing viewer engagement and interaction on Twitch streams. -Integrated Twitch API to ensure seamless communication between the chatbot and Twitch chat, enabling instant data retrieval upon viewer requests. -Optimized API calls to reduce latency and improve the efficiency of data updates, ensuring that viewers receive the most accurate and up to date game information. -Collaborated with a team to design and implement features that meet the needs of Twitch streamers and their audiences, contributing to the overall success of the project.",
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBot",
     "imageFile": "RiotTwicthBot.png",
     "projectSite":""
   },
   {
     "title": "Riot Twitch Bot Website",
-    "description": "The site I created allows everyone to recognise the RiotTwitchBot we're making.",
+    "description": "-Designed and developed a website to showcase the RiotTwitchBot project, enhancing visibility and user engagement. -Utilized modern web development technologies such as React.js, HTML5, and CSS3 to create a responsive and visually appealing interface. -Implemented features that allow users to easily understand and interact with the RiotTwitchBot, fostering community interest and participation.",
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBotWebsite",
     "imageFile": "RiotTwitchBotWebsite.png",
     "projectSite":"https://riottwitchbot.vercel.app/"
