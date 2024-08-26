@@ -36,7 +36,7 @@
   },
   {
     "title": "Property Website",
-    "description": "-Created a full-stack web application using React.js, Node.js, and MySQL, enabling users to manage property listings with ease. -Designed and implemented CRUD operations for property management, resulting in a 15% increase in platform usage. -Ensured data security and integrity by integrating robust authentication and authorization protocols, enhancing user trust and platform reliability.",
+    "description": "-Created a full stack web application using React.js, Node.js, and MySQL, enabling users to manage property listings with ease. -Designed and implemented CRUD operations for property management, resulting in a 15% increase in platform usage. -Ensured data security and integrity by integrating robust authentication and authorization protocols, enhancing user trust and platform reliability.",
     "codeLink": "https://github.com/hsemihaktas/EstateWebsite",
     "imageFile": "EstateWebsite.png",
     "projectSite":""
