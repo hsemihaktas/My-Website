@@ -49,7 +49,7 @@ export const WelcomePage = () => {
           <div className="text-5xl font-bold">My name is Semih</div>
           <div>
             <h1 className="text-2xl font-medium">
-              I'm <span className="changeText">{text}</span>
+              I'm <span className="text-[#4F709C]">{text}</span>
               <span className="cursor">|</span>
             </h1>
           </div>
