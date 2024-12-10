@@ -1,7 +1,7 @@
 [
   {
     "title": "PAE Website",
-    "description": "-Played a key role in developing the PAE website using Next.js, Tailwind CSS, HTML, JavaScript, and React. Focused on creating a highly responsive user interface that delivers a seamless browsing experience. -Optimized the website’s performance by refining code and assets, ensuring faster load times and smooth navigation. -Collaborated closely with cross-functional teams to meet client expectations and deliver the project on time.",
+    "description": "-Played a key role in developing the PAE website using Next.js, Tailwind CSS, HTML, JavaScript, and React. Focused on creating a highly responsive user interface that delivers a seamless browsing experience. -Optimized the website’s performance by refining code and assets, ensuring faster load times and smooth navigation. -Collaborated closely with cross functional teams to meet client expectations and deliver the project on time.",
     "shortDescription": "Responsive Next.js website with a seamless interface.",
     "codeLink": "",
     "imageFile": "PAE.jpeg",
@@ -11,7 +11,7 @@
   },
   {
     "title": "Now Yapı Website",
-    "description": "-Led the frontend development of the Now Yapı website, utilizing React.js, Tailwind CSS, and Swiper to deliver an elegant and user-friendly interface. -Designed and implemented interactive image sliders that enhance the visual appeal and improve user interaction. -Integrated JSON data for efficient communication between the frontend and backend, ensuring reliable and accurate data handling. -Worked closely with designers to align the website’s UI/UX elements with the brand’s vision, creating a cohesive and attractive online presence.",
+    "description": "-Led the frontend development of the Now Yapı website, utilizing React.js, Tailwind CSS, and Swiper to deliver an elegant and user friendly interface. -Designed and implemented interactive image sliders that enhance the visual appeal and improve user interaction. -Integrated JSON data for efficient communication between the frontend and backend, ensuring reliable and accurate data handling. -Worked closely with designers to align the website’s UI/UX elements with the brand’s vision, creating a cohesive and attractive online presence.",
     "shortDescription": "Elegant and interactive React-based website.",
     "codeLink": "",
     "imageFile": "NowYapı.jpeg",
@@ -21,7 +21,7 @@
   },
   {
     "title": "Blur Face",
-    "description": "-Developed a user-friendly web application using React.js and Django, allowing users to apply image blurring effects to faces and objects. -Implemented a responsive design to ensure compatibility across various devices, providing a consistent user experience. -Streamlined the image processing functionality with efficient algorithms to enhance performance and deliver faster results.",
+    "description": "-Developed a user friendly web application using React.js and Django, allowing users to apply image blurring effects to faces and objects. -Implemented a responsive design to ensure compatibility across various devices, providing a consistent user experience. -Streamlined the image processing functionality with efficient algorithms to enhance performance and deliver faster results.",
     "shortDescription": "Image blurring web app built with React and Django.",
     "codeLink": "https://github.com/hsemihaktas/BlurryFace",
     "imageFile": "BlurFace.png",
@@ -31,7 +31,7 @@
   },
   {
     "title": "Riot Twitch Bot",
-    "description": "-Designed and developed a Twitch chatbot using Node.js and Axios to access the Riot Games API. -Provided viewers with real-time game data for League of Legends and Teamfight Tactics, enhancing interaction during Twitch streams. -Integrated the Twitch API for seamless communication with the chat system, enabling immediate responses to viewer queries. -Focused on optimizing API calls to ensure reliable and up-to-date data retrieval.",
+    "description": "-Designed and developed a Twitch chatbot using Node.js and Axios to access the Riot Games API. -Provided viewers with real time game data for League of Legends and Teamfight Tactics, enhancing interaction during Twitch streams. -Integrated the Twitch API for seamless communication with the chat system, enabling immediate responses to viewer queries. -Focused on optimizing API calls to ensure reliable and up to date data retrieval.",
     "shortDescription": "Twitch chatbot delivering live game data.",
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBot",
     "imageFile": "RiotTwicthBot.png",

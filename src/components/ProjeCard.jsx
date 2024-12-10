@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const ProjeCard = ({ project }) => {
+  const navigate = useNavigate();
+
+  const handleDetailClick = () => {
+    navigate(`${project.url}`);
+  };
+
   return (
     <div className="lg:w-full w-full bg-[#D8C4B6] h-auto p-6 my-6 shadow-lg hover:shadow-xl hover:scale-105 transition-all transform duration-300 rounded-lg border-2 border-[#D8C4B6]">
       <div className="flex flex-col lg:flex-row items-center">
@@ -19,16 +26,13 @@ const ProjeCard = ({ project }) => {
         </div>
       </div>
       <div className="mt-4 flex justify-end gap-4">
-        {project.codeLink && (
-          <button className="text-sm lg:text-base py-2 px-4 text-white bg-[#4F709C] hover:bg-[#213555] rounded-lg shadow hover:shadow-lg transition duration-300">
-            <a href={project.codeLink} target="_blank" rel="noopener noreferrer">Code</a>
-          </button>
-        )}
-        {project.projectSite && (
-          <button className="text-sm lg:text-base py-2 px-4 text-white bg-[#4F709C] hover:bg-[#213555] rounded-lg shadow hover:shadow-lg transition duration-300">
-            <a href={project.projectSite} target="_blank" rel="noopener noreferrer">Website</a>
-          </button>
-        )}
+        {/* Detail butonu */}
+        <button
+          className="text-sm lg:text-base py-2 px-6 text-[#213555] bg-[#F1F1F1] hover:bg-[#4F709C] hover:text-white rounded-full shadow-lg transition duration-300 mb-4 w-full md:w-auto"
+          onClick={handleDetailClick}
+        >
+          View Detail
+        </button>
       </div>
     </div>
   );
