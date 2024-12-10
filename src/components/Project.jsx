@@ -1,17 +1,14 @@
 import React, { useState, useEffect } from "react";
 import ProjeCard from "./ProjeCard.jsx";
+import data from "../data/projects.json";
 
 export const Project = () => {
 
     const [projects, setProjects] = useState([]);
 
-  useEffect(() => {
-    // JSON dosyasını fetch edin
-    fetch("/projects.json") // JSON dosyanızın yolu
-      .then((response) => response.json())
-      .then((data) => setProjects(data))
-      .catch((error) => console.error("JSON verileri alınamadı:", error));
-  }, []);
+    useEffect(() => {
+      setProjects(data);
+    }, []);
   return (
     <>
       <div className="py-3 mb-5">
