@@ -6,7 +6,8 @@
     "codeLink": "",
     "imageFile": "PAE.jpeg",
     "projectSite": "",
-    "url": "/projects/pae-website"
+    "url": "/projects/pae-website",
+    "technologies": ["Next.js", "Tailwind CSS", "React.js", "JavaScript", "HTML"]
   },
   {
     "title": "Now Yapı Website",
@@ -15,7 +16,8 @@
     "codeLink": "",
     "imageFile": "NowYapı.jpeg",
     "projectSite": "https://nowyapi.com/",
-    "url": "/projects/now-yapi-website"
+    "url": "/projects/now-yapi-website",
+    "technologies": ["React.js", "Tailwind CSS", "Swiper", "JSON"]
   },
   {
     "title": "Blur Face",
@@ -24,7 +26,8 @@
     "codeLink": "https://github.com/hsemihaktas/BlurryFace",
     "imageFile": "BlurFace.png",
     "projectSite": "",
-    "url": "/projects/blur-face"
+    "url": "/projects/blur-face",
+    "technologies": ["React.js", "Django", "HTML", "CSS"]
   },
   {
     "title": "Riot Twitch Bot",
@@ -33,7 +36,8 @@
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBot",
     "imageFile": "RiotTwicthBot.png",
     "projectSite": "",
-    "url": "/projects/riot-twitch-bot"
+    "url": "/projects/riot-twitch-bot",
+    "technologies": ["Node.js", "Axios", "Twitch API", "JavaScript"]
   },
   {
     "title": "Riot Twitch Bot Website",
@@ -42,7 +46,8 @@
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBotWebsite",
     "imageFile": "RiotTwitchBotWebsite.png",
     "projectSite": "https://riottwitchbot.vercel.app/",
-    "url": "/projects/riot-twitch-bot-website"
+    "url": "/projects/riot-twitch-bot-website",
+    "technologies": ["React.js", "HTML5", "CSS3", "JavaScript"]
   },
   {
     "title": "Property Website",
@@ -51,6 +56,7 @@
     "codeLink": "https://github.com/hsemihaktas/EstateWebsite",
     "imageFile": "EstateWebsite.png",
     "projectSite": "",
-    "url": "/projects/property-website"
+    "url": "/projects/property-website",
+    "technologies": ["React.js", "Node.js", "MySQL", "JavaScript"]
   }
 ]
