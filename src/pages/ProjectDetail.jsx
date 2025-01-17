@@ -5,7 +5,6 @@ import ImageSection from "../components/ImageSection";
 import TechnologiesSection from "../components/TechnologiesSection";
 import DescriptionSection from "../components/DescriptionSection";
 import ButtonSection from "../components/ButtonSection";
-import Footer from "../components/Footer";
 
 const ProjectDetail = () => {
   const { projectUrl } = useParams();
@@ -16,7 +15,7 @@ const ProjectDetail = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-[#FEF3E2] gap-8">
-      <div className="flex-grow max-w-7xl mx-auto bg-[#D8C4B6] mt-8 p-8 rounded-lg shadow-xl">
+      <div className="max-w-7xl mx-auto bg-[#D8C4B6] mt-8 p-8 rounded-lg shadow-xl h-auto">
         <div className="flex items-center mb-4">
           <button
             onClick={() => navigate("/")}
@@ -39,9 +38,6 @@ const ProjectDetail = () => {
           </div>
         </div>
       </div>
-
-      {/* Footer'ı her zaman ekranın altına sabitlemek */}
-      <Footer />
     </div>
   );
 };

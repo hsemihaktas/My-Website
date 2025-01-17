@@ -8,8 +8,7 @@ const ImageSection = ({ project }) => {
           <img
             src={require(`../images/${project.imageFile}`)}
             alt={project.title}
-            className="w-full h-auto object-contain rounded-lg mb-6"
-            style={{ maxHeight: "400px", objectFit: "contain" }}
+            className="w-full h-96 object-cover object-top rounded-lg mb-6 hover:object-bottom transition-all transform duration-1000"
           />
         </div>
       )}
