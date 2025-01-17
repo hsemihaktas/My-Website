@@ -9,30 +9,33 @@ const ProjeCard = ({ project }) => {
   };
 
   return (
-    <div className="lg:w-full w-full bg-[#D8C4B6] h-auto p-6 my-6 shadow-lg hover:shadow-xl hover:scale-105 transition-all transform duration-300 rounded-lg border-2 border-[#D8C4B6]">
-      <div className="flex flex-col lg:flex-row items-center">
-        {project.imageFile && (
-          <img
-            className="w-full lg:w-1/3 h-48 object-contain mb-4 lg:mb-0 lg:mr-6"
-            src={require(`../images/${project.imageFile}`)}
-            alt={project.title}
-          />
-        )}
-        <div className="flex flex-col w-full lg:w-2/3">
-          <h1 className="text-xl font-semibold text-[#213555] mb-2">{project.title}</h1>
+    <div className="group lg:w-full w-full bg-[#D8C4B6] h-auto p-6 my-6 shadow-lg hover:shadow-xl hover:scale-105 transition-all transform duration-300 rounded-lg border-2 border-[#D8C4B6]">
+      <div className="flex flex-col lg:flex-row ">
+        <div className="w-full lg:w-3/5 lg:mr-6">
+          {project.imageFile && (
+            <img
+              className="w-full h-48 object-cover object-top group-hover:object-bottom transition-all transform duration-1000"
+              src={require(`../images/${project.imageFile}`)}
+              alt={project.title}
+            />
+          )}
+        </div>
+        <div className="flex flex-col w-full lg:w-2/5 relative">
+          <h1 className="text-xl font-semibold text-[#213555] mb-2">
+            {project.title}
+          </h1>
           <ul className="custom-list text-sm text-[#555] space-y-1">
             {project.shortDescription}
           </ul>
+          <div className="absolute bottom-0 right-0">
+            <button
+              className="text-sm lg:text-base py-2 px-6 text-[#213555] bg-[#F1F1F1] hover:bg-[#4F709C] hover:text-white rounded-full shadow-lg transition duration-300 mb-4"
+              onClick={handleDetailClick}
+            >
+              View Detail
+            </button>
+          </div>
         </div>
-      </div>
-      <div className="mt-4 flex justify-end gap-4">
-        {/* Detail butonu */}
-        <button
-          className="text-sm lg:text-base py-2 px-6 text-[#213555] bg-[#F1F1F1] hover:bg-[#4F709C] hover:text-white rounded-full shadow-lg transition duration-300 mb-4 w-full md:w-auto"
-          onClick={handleDetailClick}
-        >
-          View Detail
-        </button>
       </div>
     </div>
   );
