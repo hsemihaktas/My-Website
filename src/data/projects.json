@@ -2,7 +2,7 @@
   {
     "title": "Blur Face",
     "description": "-Developed a user friendly web application using React.js and Django, allowing users to apply image blurring effects to faces and objects. -Implemented a responsive design to ensure compatibility across various devices, providing a consistent user experience. -Streamlined the image processing functionality with efficient algorithms to enhance performance and deliver faster results.",
-    "shortDescription": "Image blurring web app built with React and Django.",
+    "shortDescription": "A web application that allows users to blur faces and objects in images using React.js and Django.",
     "codeLink": "https://github.com/hsemihaktas/BlurryFace",
     "imageFile": "BlurFace.png",
     "projectSite": "",
@@ -12,41 +12,33 @@
   {
     "title": "Property Website",
     "description": "-Developed a comprehensive property management platform using React.js, Node.js, and MySQL. -Designed intuitive CRUD operations to simplify property listing management, enhancing user convenience. -Incorporated secure authentication and authorization mechanisms to protect user data and ensure reliable access.",
-    "shortDescription": "Comprehensive platform for property management.",
+    "shortDescription": "A platform for managing property listings with secure authentication, built using React, Node.js, and MySQL.",
     "codeLink": "https://github.com/hsemihaktas/EstateWebsite",
     "imageFile": "EstateWebsite.png",
     "projectSite": "",
     "url": "/projects/property-website",
-    "technologies": [
-      "React.js",
-      "Node.js",
-      "MySQL",
-      "JavaScript",
-      "Tailwind CSS"
-    ]
+    "technologies": ["ReactJS", "NodeJS", "MySQL", "JavaScript", "TailwindCSS"]
   },
   {
     "title": "PAE Website",
     "description": "-Played a key role in developing the PAE website using Next.js, Tailwind CSS, HTML, JavaScript, and React. Focused on creating a highly responsive user interface that delivers a seamless browsing experience. -Optimized the website’s performance by refining code and assets, ensuring faster load times and smooth navigation. -Collaborated closely with cross functional teams to meet client expectations and deliver the project on time.",
-    "shortDescription": "Responsive Next.js website with a seamless interface.",
-    "codeLink": "",
+    "shortDescription": "A fast and responsive Next.js website with a user-friendly interface and optimized performance.",
     "imageFile": "PAE.jpeg",
     "projectSite": "",
     "url": "/projects/pae-website",
-    "technologies": ["Next.js", "Tailwind CSS", "JavaScript", "HTML5", "CSS3"]
+    "technologies": ["NextJS", "TailwindCSS", "JavaScript", "HTML5", "CSS3"]
   },
   {
     "title": "Now Yapı Website",
     "description": "-Led the frontend development of the Now Yapı website, utilizing React.js, Tailwind CSS, and Swiper to deliver an elegant and user friendly interface. -Designed and implemented interactive image sliders that enhance the visual appeal and improve user interaction. -Integrated JSON data for efficient communication between the frontend and backend, ensuring reliable and accurate data handling. -Worked closely with designers to align the website’s UI/UX elements with the brand’s vision, creating a cohesive and attractive online presence.",
-    "shortDescription": "Elegant and interactive React-based website.",
+    "shortDescription": "An elegant React-based website for a construction company, featuring interactive sliders and seamless UX.",
     "codeLink": "",
     "imageFile": "NowYapı.jpeg",
     "projectSite": "https://nowyapi.com/",
     "url": "/projects/now-yapi-website",
     "technologies": [
-      "React.js",
-      "Tailwind CSS",
-      "Swiper",
+      "ReactJS",
+      "TailwindCSS",
       "JSON",
       "JavaScript",
       "HTML5",
@@ -56,21 +48,21 @@
   {
     "title": "Riot Twitch Bot",
     "description": "-Designed and developed a Twitch chatbot using Node.js and Axios to access the Riot Games API. -Provided viewers with real time game data for League of Legends and Teamfight Tactics, enhancing interaction during Twitch streams. -Integrated the Twitch API for seamless communication with the chat system, enabling immediate responses to viewer queries. -Focused on optimizing API calls to ensure reliable and up to date data retrieval.",
-    "shortDescription": "Twitch chatbot delivering live game data.",
+    "shortDescription": "A Twitch bot that provides live game stats for League of Legends and Teamfight Tactics using Riot API.",
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBot",
     "imageFile": "RiotTwicthBot.png",
     "projectSite": "",
     "url": "/projects/riot-twitch-bot",
-    "technologies": ["Node.js", "Twitch API", "JavaScript"]
+    "technologies": ["NodeJS", "JavaScript"]
   },
   {
     "title": "Riot Twitch Bot Website",
     "description": "-Created a dedicated website to showcase the Riot Twitch Bot project, enhancing its visibility and engagement. -Built with React.js, HTML5, and CSS3 to provide a visually appealing and responsive design. -Included interactive elements to help users explore and understand the features of the Riot Twitch Bot, fostering community interest and participation.",
-    "shortDescription": "Showcase website for the Riot Twitch Bot project.",
+    "shortDescription": "A showcase website for the Riot Twitch Bot project, featuring interactive elements and responsive design.",
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBotWebsite",
     "imageFile": "RiotTwitchBotWebsite.png",
     "projectSite": "https://riottwitchbot.vercel.app/",
     "url": "/projects/riot-twitch-bot-website",
-    "technologies": ["React.js", "HTML5", "CSS3", "JavaScript", "JSON"]
+    "technologies": ["ReactJS", "HTML5", "CSS3", "JavaScript", "JSON"]
   }
 ]
