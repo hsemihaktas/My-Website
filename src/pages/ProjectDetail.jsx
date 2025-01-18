@@ -15,7 +15,7 @@ const ProjectDetail = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-[#FEF3E2] gap-8">
-      <div className="max-w-7xl m-4 lg:mx-auto bg-[#D8C4B6] p-8 rounded-lg shadow-xl h-auto">
+      <div className="max-w-screen-2xl m-4 lg:mx-auto bg-[#D8C4B6] p-8 rounded-lg shadow-xl h-auto">
         <div className="flex items-center mb-4 p-4">
           <button
             onClick={() => navigate("/")}
