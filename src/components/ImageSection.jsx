@@ -4,7 +4,7 @@ const ImageSection = ({ project }) => {
   return (
     <>
       {project.imageFile && (
-        <div className="w-auto lg:w-1/2">
+        <div>
           <img
             src={require(`../images/${project.imageFile}`)}
             alt={project.title}

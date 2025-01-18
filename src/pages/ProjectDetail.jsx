@@ -28,10 +28,12 @@ const ProjectDetail = () => {
 
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sol kısım - Resim */}
-          <ImageSection project={project} />
+          <div className="w-auto lg:w-1/2 content-center">
+            <ImageSection project={project} />
+          </div>
 
           {/* Sağ kısım - Teknolojiler ve Açıklama */}
-          <div className="w-full lg:w-1/2 text-[#555] mb-6">
+          <div className="w-full lg:w-1/2 text-[#555]">
             <TechnologiesSection project={project} />
             <DescriptionSection project={project} />
             <ButtonSection project={project} />
