@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ProjeCard from "./ProjeCard.jsx";
+import ProjectCard from "./ProjectCard.jsx";
 import data from "../data/projects.json";
 
 export const Project = () => {
@@ -17,7 +17,7 @@ export const Project = () => {
         </div>
         <div className="text-lg">
         {projects.map((project, index) => (
-                <ProjeCard key={index} project={project} />
+                <ProjectCard key={index} project={project} />
               ))}
         </div>
       </div>
