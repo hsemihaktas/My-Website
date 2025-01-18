@@ -4,12 +4,12 @@ const TechnologiesSection = ({ project }) => {
   return (
     <div className="w-full text-[#555] mb-6">
   <h2 className="text-2xl font-semibold text-[#213555] mb-4">Technologies Used</h2>
-  <ul className="flex flex-wrap gap-4 mb-6">
+  <ul className="flex flex-wrap gap-2 mb-6">
     {project.technologies && project.technologies.length > 0 ? (
       project.technologies.map((tech, index) => (
         <li
           key={index}
-          className="relative group p-2 flex items-center justify-center w-16 h-16"
+          className="relative group p-1 flex items-center justify-center w-12 h-12 lg:w-16 lg:h-16"
         >
           <img
             src={require(`../images/svg/${tech}.svg`)}
