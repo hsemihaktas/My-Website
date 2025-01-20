@@ -1,11 +1,15 @@
 import React from "react";
 
-export const Education = () => {
+export const Education = ({ darkMode }) => {
   return (
     <>
       <div className="py-3">
         <div className="text-5xl py-2">Education</div>
-        <div className="text-2xl flex text-[#4F709C]">
+        <div
+          className={`text-2xl flex ${
+            darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"
+          }`}
+        >
           <span className="flex-grow">İstanbul Medeniyet University</span>
           <span className="ml-auto">3.21/4</span>
         </div>
