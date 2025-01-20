@@ -3,7 +3,8 @@ import React, { useState, useEffect } from "react";
 import ProfilePicture from "../images/profilePicture.jpg";
 import SocialIcons from "./SocialIcons";
 
-export const WelcomePage = () => {
+export const WelcomePage = ({darkMode}) => {
+
   const words = [
     "Front-end Developer",
     "Software Engineer",
@@ -49,7 +50,12 @@ export const WelcomePage = () => {
           <div className="text-5xl font-bold">My name is Semih</div>
           <div>
             <h1 className="text-2xl font-medium">
-              I'm <span className="text-[#4F709C]">{text}</span>
+              I'm{" "}
+              <span
+                className={`${darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"}`}
+              >
+                {text}
+              </span>
               <span className="cursor">|</span>
             </h1>
           </div>
