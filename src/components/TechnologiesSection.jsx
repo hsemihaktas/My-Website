@@ -14,7 +14,7 @@ const TechnologiesSection = ({ darkMode , project }) => {
               className="relative group p-1 flex items-center justify-center w-12 h-12 lg:w-16 lg:h-16"
             >
               <img
-                src={require(`../images/svg/${tech}.svg`)}
+                src={require(`../assets/${tech}.svg`)}
                 alt={tech}
                 className="w-full h-full object-contain"
               />
