@@ -19,10 +19,10 @@ function App() {
           darkMode ? "bg-[#1F2937] text-white" : "bg-[#FEF3E2] text-black"
         }`}
       >
-        <div className="w-full lg:w-1/2 p-4 h-full flex items-center lg:fixed">
+        <div className="w-full lg:w-1/2 px-4 h-full flex items-center pt-24 lg:pt-0 lg:fixed">
           <WelcomePage darkMode={darkMode}/>
         </div>
-        <div className="flex flex-wrap h-full w-full lg:w-1/2 p-4 lg:p-20 lg:ml-auto font-medium">
+        <div className="flex flex-wrap h-full w-full lg:w-1/2 px-4 lg:p-20 lg:ml-auto font-medium">
           <About darkMode={darkMode}/>
           <Education darkMode={darkMode}/>
           <Project darkMode={darkMode}/>

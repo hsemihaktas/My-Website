@@ -23,7 +23,7 @@ const ProjectDetail = () => {
         <ToggleButton />
       </div>
       <div
-        className={`flex flex-col min-h-screen gap-8 font-medium py-4 lg:py-20 ${
+        className={`flex flex-col min-h-screen gap-8 font-medium py-20 ${
           darkMode ? "bg-[#1F2937] " : "bg-[#FEF3E2] "
         }`}
       >

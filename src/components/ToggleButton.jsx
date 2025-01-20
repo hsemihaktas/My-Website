@@ -13,26 +13,26 @@ const ToggleButton = () => {
     <div className="flex items-center justify-center gap-2">
       <img
         src={darkMode ? sunDarkMode : sunWhiteIcon}
-        className="h-8 w-8"
+        className="h-6 w-6"
         alt="Sun Icon"
       />
       
       <button
         onClick={toggleDarkMode}
-        className={`relative w-16 h-8 rounded-full transition-colors duration-300 ${
+        className={`relative w-12 h-6 rounded-full transition-colors duration-300 ${
           darkMode ? "bg-gray-700" : "bg-gray-300"
         }`}
       >
         <span
-          className={`absolute top-1 left-1 w-6 h-6 bg-white rounded-full shadow-md transition-all duration-300 ${
-            darkMode ? "translate-x-8 bg-[#D8C4B6]" : "translate-x-0"
+          className={`absolute top-1 left-1 w-4 h-4 bg-white rounded-full shadow-md transition-all duration-300 ${
+            darkMode ? "translate-x-6 bg-[#D8C4B6]" : "translate-x-0"
           }`}
         />
       </button>
       
       <img
         src={darkMode ? moonDarkIcon : moonWhiteIcon}
-        className="h-8 w-8"
+        className="h-6 w-6"
         alt="Moon Icon"
       />
     </div>
