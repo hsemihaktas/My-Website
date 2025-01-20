@@ -1,5 +1,6 @@
 import React from "react";
 import { useDarkMode } from "../context/DarkModeContext";
+import { useLanguage } from "../context/LanguageContext";
 
 import sunWhiteIcon from "../assets/SunWhiteMode.svg";
 import sunDarkMode from "../assets/SunDarkMode.svg"; 
@@ -8,9 +9,18 @@ import moonDarkIcon from "../assets/MoonDarkMode.svg";
 
 const ToggleButton = () => {
   const { darkMode, toggleDarkMode } = useDarkMode();
+  const { language, toggleLanguage } = useLanguage();
 
   return (
-    <div className="flex items-center justify-center gap-2">
+    <div className="flex items-center justify-center gap-4">
+      <button
+        onClick={toggleLanguage}
+        className={`font-semibold text-lg ${
+          darkMode ? "text-white" : "text-black"
+        }`}
+      >
+        {language === "TR" ? "TR | " : "EN | "}
+      </button>
       <img
         src={darkMode ? sunDarkMode : sunWhiteIcon}
         className="h-6 w-6"
