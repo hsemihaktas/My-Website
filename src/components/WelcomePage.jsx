@@ -3,25 +3,31 @@ import React, { useState, useEffect } from "react";
 import ProfilePicture from "../images/profilePicture.jpg";
 import SocialIcons from "./SocialIcons";
 import { useDarkMode } from "../context/DarkModeContext";
+import { useLanguage } from "../context/LanguageContext";
 
 export const WelcomePage = () => {
   const { darkMode } = useDarkMode();
+  const { language } = useLanguage();
 
-  const words = [
-    "Front-end Developer",
-    "Software Engineer",
-    "Computer Engineer",
-  ];
+  const words = {
+    EN: ["Front-end Developer", "Software Engineer", "Computer Engineer"],
+    TR: [
+      "Ön Yüz Geliştiricisiyim.",
+      "Yazılım Mühendisiyim.",
+      "Bilgisayar Mühendisiyim.",
+    ],
+  };
+
   const [text, setText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
   useEffect(() => {
     const animateText = () => {
-      const currentWord = words[currentWordIndex];
+      const currentWord = words[language][currentWordIndex];
 
       if (currentIndex === currentWord.length) {
-        if (currentWordIndex === words.length - 1) {
+        if (currentWordIndex === words[language].length - 1) {
           setCurrentIndex(0);
           setCurrentWordIndex(0);
         } else {
@@ -38,7 +44,7 @@ export const WelcomePage = () => {
 
     return () => clearInterval(animationInterval);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentIndex, currentWordIndex]);
+  }, [currentIndex, currentWordIndex, language]);
   return (
     <>
       <div className="flex justify-center items-center flex-wrap">
@@ -48,11 +54,13 @@ export const WelcomePage = () => {
             className="w-full h-full object-cover rounded-full"
           ></img>
         </div>
-        <div className="p-5 text-center lg:text-left">
-          <div className="text-5xl font-bold">My name is Semih</div>
+        <div className="p-6 text-center lg:text-left">
+          <div className="text-5xl font-bold">
+            {language === "TR" ? "Benim adım Semih" : "My name is Semih"}
+          </div>
           <div>
-            <h1 className="text-2xl font-medium">
-              I'm{" "}
+            <h1 className="text-2xl font-medium mt-2">
+              {language === "TR" ? "Ben " : "I'm "}
               <span
                 className={`${darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"}`}
               >
