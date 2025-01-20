@@ -31,12 +31,12 @@ export const SocialIcons = () => {
       >
         <FontAwesomeIcon icon={faEnvelope} className="text-lg" />
       </a>
-      <button
+      <a
         href="https://hsemihaktas.vercel.app/HasanSemihAktas_FrontEnd.pdf"
         className="w-12 h-12 flex items-center justify-center rounded-full border-4 border-[#121212] bg-[#121212] text-white transition-transform duration-500 hover:bg-white hover:text-[#121212] hover:animate-rotateAndScale"
       >
         <FontAwesomeIcon icon={faFile} className="text-lg" />
-      </button>
+      </a>
     </div>
   );
 };
