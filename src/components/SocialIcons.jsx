@@ -4,12 +4,6 @@ import { faLinkedinIn, faGithubAlt } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFile } from "@fortawesome/free-regular-svg-icons";
 
 export const SocialIcons = () => {
-  const handleDownload = () => {
-    const anchor = document.createElement("a");
-    anchor.href = "/Hasan_Semih_Aktas_Front_End_Developer_CV.pdf";
-    anchor.download = "Hasan_Semih_Aktas_Front_End_Developer_CV.pdf";
-    anchor.click();
-  };
 
   return (
     <div className="flex flex-wrap py-5 justify-center lg:justify-start gap-4">
@@ -38,7 +32,7 @@ export const SocialIcons = () => {
         <FontAwesomeIcon icon={faEnvelope} className="text-lg" />
       </a>
       <button
-        onClick={handleDownload}
+        href="https://hsemihaktas.vercel.app/Hasan_Semih_Aktas_Front_End_Developer_CV.pdf"
         className="w-12 h-12 flex items-center justify-center rounded-full border-4 border-[#121212] bg-[#121212] text-white transition-transform duration-500 hover:bg-white hover:text-[#121212] hover:animate-rotateAndScale"
       >
         <FontAwesomeIcon icon={faFile} className="text-lg" />
