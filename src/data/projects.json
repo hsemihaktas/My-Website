@@ -15,7 +15,7 @@
     "codeLink": "https://github.com/hsemihaktas/BlurryFace",
     "imageFile": "BlurFace.png",
     "projectSite": "",
-    "url": "/projects/blur-face",
+    "url": "/project/blur-face",
     "technologies": ["Django", "HTML5", "CSS3"]
   },
   {
@@ -34,7 +34,7 @@
     "codeLink": "https://github.com/hsemihaktas/EstateWebsite",
     "imageFile": "EstateWebsite.png",
     "projectSite": "",
-    "url": "/projects/property-website",
+    "url": "/project/property-website",
     "technologies": ["ReactJS", "NodeJS", "MySQL", "JavaScript", "TailwindCSS"]
   },
   {
@@ -52,7 +52,7 @@
     },
     "imageFile": "PAE.jpeg",
     "projectSite": "",
-    "url": "/projects/pae-website",
+    "url": "/project/pae-website",
     "technologies": ["NextJS", "TailwindCSS", "JavaScript", "HTML5", "CSS3"]
   },
   {
@@ -70,7 +70,7 @@
     },
     "imageFile": "NowYapı.jpeg",
     "projectSite": "https://nowyapi.com/",
-    "url": "/projects/now-yapi-website",
+    "url": "/project/now-yapi-website",
     "technologies": [
       "ReactJS",
       "TailwindCSS",
@@ -96,7 +96,7 @@
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBot",
     "imageFile": "RiotTwicthBot.png",
     "projectSite": "",
-    "url": "/projects/riot-twitch-bot",
+    "url": "/project/riot-twitch-bot",
     "technologies": ["NodeJS", "JavaScript"]
   },
   {
@@ -115,7 +115,7 @@
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBotWebsite",
     "imageFile": "RiotTwitchBotWebsite.png",
     "projectSite": "https://riottwitchbot.vercel.app/",
-    "url": "/projects/riot-twitch-bot-website",
+    "url": "/project/riot-twitch-bot-website",
     "technologies": ["ReactJS", "HTML5", "CSS3", "JavaScript", "JSON"]
   }
 ]

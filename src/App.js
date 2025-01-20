@@ -11,7 +11,7 @@ const App = () => {
         <Router>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/projects/:projectUrl" element={<ProjectDetail />} />
+            <Route path="/project/:projectUrl" element={<ProjectDetail />} />
           </Routes>
         </Router>
       </DarkModeProvider>

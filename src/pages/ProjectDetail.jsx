@@ -14,7 +14,7 @@ const ProjectDetail = () => {
   const { language } = useLanguage();
 
   const { projectUrl } = useParams();
-  const project = data.find((proj) => proj.url === `/projects/${projectUrl}`);
+  const project = data.find((proj) => proj.url === `/project/${projectUrl}`);
   const navigate = useNavigate();
 
   if (!project) return <div>Project not found</div>;
