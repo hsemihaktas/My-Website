@@ -1,8 +1,11 @@
 import React from "react";
 import { useDarkMode } from "../context/DarkModeContext";
+import { useLanguage } from "../context/LanguageContext";
 
 const ButtonSection = ({ project }) => {
   const { darkMode } = useDarkMode();
+  const { language } = useLanguage();
+
   return (
     <>
       {(project.codeLink || project.projectSite) && (
@@ -22,7 +25,8 @@ const ButtonSection = ({ project }) => {
                 rel="noopener noreferrer"
                 className="w-full block text-center"
               >
-                View Code
+                {language === "TR" ? "Kodu Görüntüle" : "View Code"}
+                
               </a>
             </button>
           )}
@@ -41,7 +45,7 @@ const ButtonSection = ({ project }) => {
                 rel="noopener noreferrer"
                 className="w-full block text-center"
               >
-                Visit Website
+                {language === "TR" ? "Web Siteyi Ziyaret Et" : "Visit Website"}
               </a>
             </button>
           )}

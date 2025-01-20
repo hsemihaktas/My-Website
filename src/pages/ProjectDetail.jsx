@@ -7,9 +7,11 @@ import DescriptionSection from "../components/DescriptionSection";
 import ButtonSection from "../components/ButtonSection";
 import ToggleButton from "../components/ToggleButton";
 import { useDarkMode } from "../context/DarkModeContext";
+import { useLanguage } from "../context/LanguageContext";
 
 const ProjectDetail = () => {
   const { darkMode } = useDarkMode();
+  const { language } = useLanguage();
 
   const { projectUrl } = useParams();
   const project = data.find((proj) => proj.url === `/projects/${projectUrl}`);
@@ -28,7 +30,7 @@ const ProjectDetail = () => {
         }`}
       >
         <div
-          className={`max-w-screen-2xl m-4 lg:mx-auto p-8 rounded-lg shadow-xl h-auto
+          className={`max-w-screen-2xl m-4 lg:mx-auto p-8 rounded-lg shadow-xl h-auto lg:w-full
       ${
         darkMode
           ? "bg-[#374151] text-white border-[#4B5563]"
@@ -49,7 +51,7 @@ const ProjectDetail = () => {
                 darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"
               }`}
             >
-              {project.title}
+              {project.title[language]}
             </h1>
           </div>
 
