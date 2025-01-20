@@ -1,8 +1,17 @@
 [
   {
-    "title": "Blur Face",
-    "description": "-Developed a user friendly web application using React.js and Django, allowing users to apply image blurring effects to faces and objects. -Implemented a responsive design to ensure compatibility across various devices, providing a consistent user experience. -Streamlined the image processing functionality with efficient algorithms to enhance performance and deliver faster results.",
-    "shortDescription": "A web application that allows users to blur faces and objects in images using React.js and Django.",
+    "title": {
+      "EN": "Blur Face",
+      "TR": "Blur Face"
+    },
+    "description": {
+      "EN": "-Developed the frontend of an image-processing application using Django.-Integrated image-processing algorithms into the website. -Enhanced user experience by implementing a responsive design.",
+      "TR": "-Django kullanarak bir görsel işleme uygulaması için frontend geliştirdim. -Görsel işleme algoritmalarını siteye entegre ettim. -Responsive tasarım uygulayarak kullanıcı deneyimini iyileştirdim."
+    },
+    "shortDescription": {
+      "EN": "A web application that allows users to blur faces and objects in images using Django.",
+      "TR": "Django kullanarak kullanıcıların resimlerdeki yüzleri ve nesneleri bulanıklaştırmalarını sağlayan bir web uygulaması."
+    },
     "codeLink": "https://github.com/hsemihaktas/BlurryFace",
     "imageFile": "BlurFace.png",
     "projectSite": "",
@@ -10,9 +19,18 @@
     "technologies": ["Django", "HTML5", "CSS3"]
   },
   {
-    "title": "Property Website",
-    "description": "-Developed a comprehensive property management platform using React.js, Node.js, and MySQL. -Designed intuitive CRUD operations to simplify property listing management, enhancing user convenience. -Incorporated secure authentication and authorization mechanisms to protect user data and ensure reliable access.",
-    "shortDescription": "A platform for managing property listings with secure authentication, built using React, Node.js, and MySQL.",
+    "title": {
+      "EN": "Property Website",
+      "TR": "Emlak Web Sitesi"
+    },
+    "description": {
+      "EN": "-Developed a full-stack web application for property management using React.js, Node.js, and MySQL. -Successfully managed listing operations through efficient CRUD operations.",
+      "TR": "-React.js, Node.js ve MySQL kullanarak mülk yönetimi için bir tam yığın web uygulaması geliştirdim. -CRUD işlemleri sayesinde ilan işlemlerini sorunsuz bir şekilde gerçekleştirdim."
+    },
+    "shortDescription": {
+      "EN": "A platform for managing property listings with secure authentication, built using React, Node.js, and MySQL.",
+      "TR": "React, Node.js ve MySQL kullanılarak inşa edilen, güvenli kimlik doğrulama ile emlak listelemelerini yönetmek için bir platform."
+    },
     "codeLink": "https://github.com/hsemihaktas/EstateWebsite",
     "imageFile": "EstateWebsite.png",
     "projectSite": "",
@@ -20,19 +38,36 @@
     "technologies": ["ReactJS", "NodeJS", "MySQL", "JavaScript", "TailwindCSS"]
   },
   {
-    "title": "PAE Website",
-    "description": "-Played a key role in developing the PAE website using Next.js, Tailwind CSS, HTML, JavaScript, and React. Focused on creating a highly responsive user interface that delivers a seamless browsing experience. -Optimized the website’s performance by refining code and assets, ensuring faster load times and smooth navigation. -Collaborated closely with cross functional teams to meet client expectations and deliver the project on time.",
-    "shortDescription": "A fast and responsive Next.js website with a user-friendly interface and optimized performance.",
+    "title": {
+      "EN": "PAE Website",
+      "TR": "PAE Web Sitesi"
+    },
+    "description": {
+      "EN": "-Developed an optimized web application with Next.js using Tailwind CSS and HTML5. -Collaborated with UI/UX teams to ensure timely completion of projects.",
+      "TR": "-Tailwind CSS ve HTML5 kullanarak Next.js ile optimize edilmiş bir web uygulaması geliştirdim. -UI/UX ekipleriyle koordineli çalışarak projelerin zamanında tamamlanmasını sağladım."
+    },
+    "shortDescription": {
+      "EN": "A fast and responsive Next.js website with a user-friendly interface and optimized performance.",
+      "TR": "Hızlı ve duyarlı bir Next.js web sitesi, kullanıcı dostu bir arayüz ve optimize edilmiş performans."
+    },
     "imageFile": "PAE.jpeg",
     "projectSite": "",
     "url": "/projects/pae-website",
     "technologies": ["NextJS", "TailwindCSS", "JavaScript", "HTML5", "CSS3"]
   },
   {
-    "title": "Now Yapı Website",
-    "description": "-Led the frontend development of the Now Yapı website, utilizing React.js, Tailwind CSS, and Swiper to deliver an elegant and user friendly interface. -Designed and implemented interactive image sliders that enhance the visual appeal and improve user interaction. -Integrated JSON data for efficient communication between the frontend and backend, ensuring reliable and accurate data handling. -Worked closely with designers to align the website’s UI/UX elements with the brand’s vision, creating a cohesive and attractive online presence.",
-    "shortDescription": "An elegant React-based website for a construction company, featuring interactive sliders and seamless UX.",
-    "codeLink": "",
+    "title": {
+      "EN": "Now Yapı Website",
+      "TR": "Now Yapı Web Sitesi"
+    },
+    "description": {
+      "EN": "-Led the development of a React.js-based frontend and integrated responsive designs using Tailwind CSS. -Created interactive sliders with Swiper.js, enhancing visual appeal and user engagement. -Streamlined API communication with JSON data integration, ensuring seamless data retrieval.",
+      "TR": "-React.js tabanlı bir frontend geliştirmesin bulundum, Tailwind CSS ile responsive tasarımlar entegre ettim. -Swiper.js kullanarak etkileşimli slider’lar oluşturdum, görsel çekicilik ve kullanıcı etkileşimini artırdım. -JSON veri entegrasyonu ile API iletişimini düzenleyerek gerekli verilerin sorunsuz bir şekilde çekilmesini sağladım."
+    },
+    "shortDescription": {
+      "EN": "An elegant React-based website for a construction company, featuring interactive sliders and seamless UX.",
+      "TR": "Etkileşimli kaydırıcılar ve sorunsuz UX içeren, bir inşaat şirketi için şık bir React tabanlı web sitesi."
+    },
     "imageFile": "NowYapı.jpeg",
     "projectSite": "https://nowyapi.com/",
     "url": "/projects/now-yapi-website",
@@ -46,9 +81,18 @@
     ]
   },
   {
-    "title": "Riot Twitch Bot",
-    "description": "-Designed and developed a Twitch chatbot using Node.js and Axios to access the Riot Games API. -Provided viewers with real time game data for League of Legends and Teamfight Tactics, enhancing interaction during Twitch streams. -Integrated the Twitch API for seamless communication with the chat system, enabling immediate responses to viewer queries. -Focused on optimizing API calls to ensure reliable and up to date data retrieval.",
-    "shortDescription": "A Twitch bot that provides live game stats for League of Legends and Teamfight Tactics using Riot API.",
+    "title": {
+      "EN": "Riot Twitch Bot",
+      "TR": "Riot Twitch Botu"
+    },
+    "description": {
+      "EN": "-Designed and developed a Twitch chatbot using Node.js and Axios to access the Riot Games API. -Provided viewers with real-time game data for League of Legends and Teamfight Tactics, enhancing interaction during Twitch streams. -Integrated the Twitch API for seamless communication with the chat system, enabling immediate responses to viewer queries. -Focused on optimizing API calls to ensure reliable and up-to-date data retrieval.",
+      "TR": "-Node.js ve Axios kullanarak Riot Games API'sine erişim sağlayan bir Twitch chatbot'u tasarladım ve geliştirdim. -Twitch yayınları sırasında izleyicilerle etkileşimi artırarak, League of Legends ve Teamfight Tactics için gerçek zamanlı oyun verileri sağladım. -Twitch API'sini entegre ederek sohbet sistemiyle sorunsuz iletişim sağladım ve izleyicilerin sorgularına anında yanıt verdim. -API çağrılarını optimize ederek güvenilir ve güncel veri alımını sağladım."
+    },
+    "shortDescription": {
+      "EN": "A Twitch bot that provides live game stats for League of Legends and Teamfight Tactics using Riot API.",
+      "TR": "Riot API'sini kullanarak, League of Legends ve Teamfight Tactics için canlı oyun istatistikleri sağlayan bir Twitch botu."
+    },
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBot",
     "imageFile": "RiotTwicthBot.png",
     "projectSite": "",
@@ -56,9 +100,18 @@
     "technologies": ["NodeJS", "JavaScript"]
   },
   {
-    "title": "Riot Twitch Bot Website",
-    "description": "-Created a dedicated website to showcase the Riot Twitch Bot project, enhancing its visibility and engagement. -Built with React.js, HTML5, and CSS3 to provide a visually appealing and responsive design. -Included interactive elements to help users explore and understand the features of the Riot Twitch Bot, fostering community interest and participation.",
-    "shortDescription": "A showcase website for the Riot Twitch Bot project, featuring interactive elements and responsive design.",
+    "title": {
+      "EN": "Riot Twitch Bot Website",
+      "TR": "Riot Twitch Botu Web Sitesi"
+    },
+    "description": {
+      "EN": "-Created a dedicated website to showcase the Riot Twitch Bot project, enhancing its visibility and engagement. -Built with React.js, HTML5, and CSS3 to provide a visually appealing and responsive design. -Included interactive elements to help users explore and understand the features of the Riot Twitch Bot, fostering community interest and participation.",
+      "TR": "-Riot Twitch Botu projesini sergilemek için özel bir web sitesi oluşturduk, görünürlüğünü ve etkileşimini artırdık. -React.js, HTML5 ve CSS3 ile görsel olarak çekici ve duyarlı bir tasarım sundum. -Kullanıcıların Riot Twitch Botu'nun özelliklerini keşfetmesine yardımcı olacak etkileşimli öğeler ekledim, topluluk ilgisini ve katılımını teşvik ettim."
+    },
+    "shortDescription": {
+      "EN": "A showcase website for the Riot Twitch Bot project, featuring interactive elements and responsive design.",
+      "TR": "Riot Twitch Botu projesi için etkileşimli öğeler ve duyarlı tasarım içeren bir sergileme web sitesi."
+    },
     "codeLink": "https://github.com/hsemihaktas/RiotTwitchBotWebsite",
     "imageFile": "RiotTwitchBotWebsite.png",
     "projectSite": "https://riottwitchbot.vercel.app/",
