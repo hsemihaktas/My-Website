@@ -1,11 +1,22 @@
 import React from "react";
 import { useDarkMode } from "../context/DarkModeContext";
 
+import sunWhiteIcon from "../assets/SunWhiteMode.svg";
+import sunDarkMode from "../assets/SunDarkMode.svg"; 
+import moonWhiteIcon from "../assets/MoonWhiteMode.svg";
+import moonDarkIcon from "../assets/MoonDarkMode.svg";
+
 const ToggleButton = () => {
   const { darkMode, toggleDarkMode } = useDarkMode();
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center gap-2">
+      <img
+        src={darkMode ? sunDarkMode : sunWhiteIcon}
+        className="h-8 w-8"
+        alt="Sun Icon"
+      />
+      
       <button
         onClick={toggleDarkMode}
         className={`relative w-16 h-8 rounded-full transition-colors duration-300 ${
@@ -18,6 +29,12 @@ const ToggleButton = () => {
           }`}
         />
       </button>
+      
+      <img
+        src={darkMode ? moonDarkIcon : moonWhiteIcon}
+        className="h-8 w-8"
+        alt="Moon Icon"
+      />
     </div>
   );
 };
