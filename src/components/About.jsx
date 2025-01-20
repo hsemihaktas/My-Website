@@ -1,11 +1,15 @@
 import React from "react";
 
-export const About = () => {
+export const About = ({ darkMode }) => {
   return (
     <>
       <div className="py-3 w-full">
         <div className="text-5xl pb-2 ">
-          Who is <span className="text-[#4F709C]">Semih</span>?
+          Who is{" "}
+          <span className={`${darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"}`}>
+            Semih
+          </span>
+          ?
         </div>
         <div className="text-lg ">
           As a Front-End developer specializing in ReactJS and JavaScript, my
