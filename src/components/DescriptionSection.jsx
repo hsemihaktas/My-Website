@@ -1,10 +1,13 @@
 import React from "react";
 
-const DescriptionSection = ({ project }) => {
+const DescriptionSection = ({ darkMode , project }) => {
+
   return (
     <div>
-      <h2 className="text-2xl font-semibold text-[#213555]">Project Overview</h2>
-      <ul className="list-disc pl-6 text-[#555] text-lg leading-relaxed">
+      <h2 className={`text-2xl font-semibold ${darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"}`}>
+        Project Overview
+      </h2>
+      <ul className={`list-disc pl-6 text-lg leading-relaxed ${darkMode ? "text-white" : "text-black"}`}>
         {project.description
           .split("-")
           .map((item, index) =>
