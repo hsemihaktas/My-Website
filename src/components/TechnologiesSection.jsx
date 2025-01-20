@@ -1,8 +1,11 @@
 import React from "react";
 import { useDarkMode } from "../context/DarkModeContext";
+import { useLanguage } from "../context/LanguageContext";
 
 const TechnologiesSection = ({ project }) => {
   const { darkMode } = useDarkMode();
+  const { language } = useLanguage();
+  
   return (
     <div className="w-full mb-6">
       <h2
@@ -10,7 +13,7 @@ const TechnologiesSection = ({ project }) => {
           darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"
         }`}
       >
-        Technologies Used
+        {language === "TR" ? "Kullanılan Teknolojiler" : "Technologies Used"}
       </h2>
       <ul className="flex flex-wrap gap-2 mb-6">
         {project.technologies && project.technologies.length > 0 ? (
