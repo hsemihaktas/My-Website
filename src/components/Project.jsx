@@ -2,23 +2,20 @@ import React, { useState, useEffect } from "react";
 import ProjectCard from "./ProjectCard.jsx";
 import data from "../data/projects.json";
 
-export const Project = () => {
+export const Project = ({ darkMode }) => {
+  const [projects, setProjects] = useState([]);
 
-    const [projects, setProjects] = useState([]);
-
-    useEffect(() => {
-      setProjects(data);
-    }, []);
+  useEffect(() => {
+    setProjects(data);
+  }, []);
   return (
     <>
       <div className="py-3 mb-5">
-        <div className="text-5xl pb-2">
-          Projects
-        </div>
+        <div className="text-5xl pb-2">Projects</div>
         <div className="text-lg">
-        {projects.map((project, index) => (
-                <ProjectCard key={index} project={project} />
-              ))}
+          {projects.map((project, index) => (
+            <ProjectCard darkMode={darkMode} key={index} project={project} />
+          ))}
         </div>
       </div>
     </>
