@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ProjectCard from "./ProjectCard.jsx";
 import data from "../data/projects.json";
 
-export const Project = ({ darkMode }) => {
+export const Project = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ export const Project = ({ darkMode }) => {
         <div className="text-5xl pb-2">Projects</div>
         <div className="text-lg">
           {projects.map((project, index) => (
-            <ProjectCard darkMode={darkMode} key={index} project={project} />
+            <ProjectCard key={index} project={project} />
           ))}
         </div>
       </div>

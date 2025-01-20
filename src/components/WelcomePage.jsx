@@ -2,8 +2,10 @@
 import React, { useState, useEffect } from "react";
 import ProfilePicture from "../images/profilePicture.jpg";
 import SocialIcons from "./SocialIcons";
+import { useDarkMode } from "../context/DarkModeContext";
 
-export const WelcomePage = ({darkMode}) => {
+export const WelcomePage = () => {
+  const { darkMode } = useDarkMode();
 
   const words = [
     "Front-end Developer",

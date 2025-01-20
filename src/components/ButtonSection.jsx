@@ -1,6 +1,8 @@
 import React from "react";
+import { useDarkMode } from "../context/DarkModeContext";
 
-const ButtonSection = ({ darkMode, project }) => {
+const ButtonSection = ({ project }) => {
+  const { darkMode } = useDarkMode();
   return (
     <>
       {(project.codeLink || project.projectSite) && (

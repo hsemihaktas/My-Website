@@ -1,9 +1,15 @@
 import React from "react";
+import { useDarkMode } from "../context/DarkModeContext";
 
-const TechnologiesSection = ({ darkMode , project }) => {
+const TechnologiesSection = ({ project }) => {
+  const { darkMode } = useDarkMode();
   return (
     <div className="w-full mb-6">
-      <h2 className={`text-2xl font-semibold text-[#213555] mb-4 ${darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"}`}>
+      <h2
+        className={`text-2xl font-semibold text-[#213555] mb-4 ${
+          darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"
+        }`}
+      >
         Technologies Used
       </h2>
       <ul className="flex flex-wrap gap-2 mb-6">

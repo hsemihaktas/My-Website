@@ -1,8 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { useDarkMode } from "../context/DarkModeContext";
 
-const ProjeCard = ({ darkMode, project }) => {
+const ProjeCard = ({ project }) => {
   const navigate = useNavigate();
+  const { darkMode } = useDarkMode();
 
   const handleDetailClick = () => {
     navigate(`${project.url}`);

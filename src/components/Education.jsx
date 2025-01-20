@@ -1,6 +1,8 @@
 import React from "react";
+import { useDarkMode } from "../context/DarkModeContext";
 
-export const Education = ({ darkMode }) => {
+export const Education = () => {
+  const { darkMode } = useDarkMode();
   return (
     <>
       <div className="py-3">
