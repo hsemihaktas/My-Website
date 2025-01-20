@@ -32,7 +32,7 @@ export const SocialIcons = () => {
         <FontAwesomeIcon icon={faEnvelope} className="text-lg" />
       </a>
       <button
-        href="https://hsemihaktas.vercel.app/Hasan_Semih_Aktas_Front_End_Developer_CV.pdf"
+        href="https://hsemihaktas.vercel.app/HasanSemihAktas_FrontEnd.pdf"
         className="w-12 h-12 flex items-center justify-center rounded-full border-4 border-[#121212] bg-[#121212] text-white transition-transform duration-500 hover:bg-white hover:text-[#121212] hover:animate-rotateAndScale"
       >
         <FontAwesomeIcon icon={faFile} className="text-lg" />
