@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React, { useState, useEffect } from "react";
+import React from "react";
 import ProfilePicture from "../images/profilePicture.jpg";
 import SocialIcons from "./SocialIcons";
 import { useDarkMode } from "../context/DarkModeContext";
@@ -9,42 +9,6 @@ export const WelcomePage = () => {
   const { darkMode } = useDarkMode();
   const { language } = useLanguage();
 
-  const words = {
-    EN: ["Front-end Developer", "Software Engineer", "Computer Engineer"],
-    TR: [
-      "Ön Yüz Geliştiricisiyim.",
-      "Yazılım Mühendisiyim.",
-      "Bilgisayar Mühendisiyim.",
-    ],
-  };
-
-  const [text, setText] = useState("");
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [currentWordIndex, setCurrentWordIndex] = useState(0);
-
-  useEffect(() => {
-    const animateText = () => {
-      const currentWord = words[language][currentWordIndex];
-
-      if (currentIndex === currentWord.length) {
-        if (currentWordIndex === words[language].length - 1) {
-          setCurrentIndex(0);
-          setCurrentWordIndex(0);
-        } else {
-          setCurrentIndex(0);
-          setCurrentWordIndex(currentWordIndex + 1);
-        }
-      } else {
-        setText(currentWord.slice(0, currentIndex + 1));
-        setCurrentIndex(currentIndex + 1);
-      }
-    };
-
-    const animationInterval = setInterval(animateText, 300);
-
-    return () => clearInterval(animationInterval);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentIndex, currentWordIndex, language]);
   return (
     <>
       <div className="flex justify-center items-center flex-wrap">
@@ -64,9 +28,8 @@ export const WelcomePage = () => {
               <span
                 className={`${darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"}`}
               >
-                {text}
+                {language === "TR" ? "Ön Yüz Geliştiricisiyim" : "Front-end Developer"}
               </span>
-              <span className="cursor">|</span>
             </h1>
           </div>
 
