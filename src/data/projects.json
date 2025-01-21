@@ -69,7 +69,7 @@
       "TR": "Etkileşimli kaydırıcılar ve sorunsuz UX içeren, bir inşaat şirketi için şık bir React tabanlı web sitesi."
     },
     "imageFile": "NowYapı.jpeg",
-    "projectSite": "https://nowyapi.com/",
+    "projectSite": "https://now-yapi.vercel.app/",
     "url": "/project/now-yapi-website",
     "technologies": [
       "ReactJS",
