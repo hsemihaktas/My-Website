@@ -1,6 +1,4 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React from "react";
-import ProfilePicture from "../images/profilePicture.jpg";
 import SocialIcons from "./SocialIcons";
 import { useDarkMode } from "../context/DarkModeContext";
 import { useLanguage } from "../context/LanguageContext";
@@ -14,7 +12,7 @@ export const WelcomePage = () => {
       <div className="flex justify-center items-center flex-wrap">
         <div className="w-1/3 h-1/3 ">
           <img
-            src={ProfilePicture}
+            src={`/images/profilePicture.jpg`}
             className="w-full h-full object-cover rounded-full"
           ></img>
         </div>

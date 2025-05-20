@@ -30,7 +30,7 @@ const ProjeCard = ({ project }) => {
           {project.imageFile && (
             <img
               className="w-full max-h-48 overflow-hidden object-cover aspect-auto object-top group-hover:object-bottom transition-all transform duration-1000"
-              src={require(`../images/${project.imageFile}`)}
+              src={`/images/${project.imageFile}`}
               alt={title}
             />
           )}
