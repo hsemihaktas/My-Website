@@ -12,12 +12,12 @@ const ButtonSection = ({ project }) => {
         <div className="mt-4 flex flex-wrap gap-4 justify-end">
           {project.codeLink && (
             <button
-              className={`text-sm lg:text-base py-2 px-6  bg-[#F1F1F1]  hover:text-white rounded-full shadow-lg transition duration-300 mb-4
-              ${
-                darkMode
-                  ? "hover:bg-[#1F2937] text-[#1F2937]"
-                  : "hover:bg-[#B89A82] text-[#6F4F34]"
-              }`}
+              className={`text-sm lg:text-base py-2 px-6 bg-[#F1F1F1] hover:text-white rounded-full shadow-lg transition duration-300 mb-4
+                ${
+                  darkMode
+                    ? "hover:bg-[#1F2937] text-[#1F2937]"
+                    : "hover:bg-[#B89A82] text-[#6F4F34]"
+                }`}
             >
               <a
                 href={project.codeLink}
@@ -32,12 +32,12 @@ const ButtonSection = ({ project }) => {
           )}
           {project.projectSite && (
             <button
-              className={`text-sm lg:text-base py-2 px-6  bg-[#F1F1F1]  hover:text-white rounded-full shadow-lg transition duration-300 mb-4
-              ${
-                darkMode
-                  ? "hover:bg-[#1F2937] text-[#1F2937]"
-                  : "hover:bg-[#B89A82] text-[#6F4F34]"
-              }`}
+              className={`text-sm lg:text-base py-2 px-6 bg-[#F1F1F1] hover:text-white rounded-full shadow-lg transition duration-300 mb-4
+                ${
+                  darkMode
+                    ? "hover:bg-[#1F2937] text-[#1F2937]"
+                    : "hover:bg-[#B89A82] text-[#6F4F34]"
+                }`}
             >
               <a
                 href={project.projectSite}

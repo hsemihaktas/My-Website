@@ -29,6 +29,7 @@ const ToggleButton = () => {
       
       <button
         onClick={toggleDarkMode}
+        title="Toggle Dark Mode"
         className={`relative w-12 h-6 rounded-full transition-colors duration-300 ${
           darkMode ? "bg-gray-700" : "bg-gray-300"
         }`}

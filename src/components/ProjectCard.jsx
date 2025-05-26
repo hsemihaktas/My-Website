@@ -22,7 +22,7 @@ const ProjeCard = ({ project }) => {
       ${
         darkMode
           ? "bg-[#374151] text-white border-[#4B5563]"
-          : "bg-[#D8C4B6] text-black border-[#D8C4B6]"
+          : "bg-[#f1dfd4] text-black border-[#D8C4B6]"
       }`}
     >
       <div className="flex flex-col lg:flex-row ">
@@ -36,16 +36,16 @@ const ProjeCard = ({ project }) => {
           )}
         </div>
         <div className="flex flex-col w-full lg:w-2/5">
-          <h1
+          <h2
             className={`text-xl font-semibold mb-2 ${
               darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"
             }`}
           >
             {title}
-          </h1>
-          <ul className="custom-list text-sm space-y-1">
+          </h2>
+          <div className="custom-list text-sm space-y-1">
             {shortDescription}
-          </ul>
+          </div>
           <div className="flex mt-2 justify-end">
             <button
               className={`text-sm lg:text-base py-2 px-6 bg-[#F1F1F1] hover:text-white rounded-full shadow-lg transition duration-300 mb-4

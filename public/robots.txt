@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hsemihaktas.vercel.app/sitemap.xml

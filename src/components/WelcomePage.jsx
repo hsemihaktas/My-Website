@@ -14,21 +14,22 @@ export const WelcomePage = () => {
           <img
             src={`/images/profilePicture.jpg`}
             className="w-full h-full object-cover rounded-full"
+            alt="Profile"
           ></img>
         </div>
         <div className="p-6 text-center lg:text-left">
           <div className="text-5xl font-bold">
-            {language === "TR" ? "Benim adım Semih" : "My name is Semih"}
+           <h1>{language === "TR" ? "Benim adım Semih" : "My name is Semih"}</h1>
           </div>
           <div>
-            <h1 className="text-2xl font-medium mt-2">
+            <h2 className="text-2xl font-medium mt-2">
               {language === "TR" ? "Ben " : "I'm "}
               <span
                 className={`${darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"}`}
               >
                 {language === "TR" ? "Ön Yüz Geliştiricisiyim" : "Front-end Developer"}
               </span>
-            </h1>
+            </h2>
           </div>
 
           <SocialIcons />

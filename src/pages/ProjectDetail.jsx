@@ -46,13 +46,13 @@ const ProjectDetail = () => {
             >
               <span className="text-4xl">&#8592;</span>
             </button>
-            <h1
+            <h3
               className={`text-3xl font-bold ${
                 darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"
               }`}
             >
               {project.title[language]}
-            </h1>
+            </h3>
           </div>
 
           <div className="flex flex-col lg:flex-row gap-8">

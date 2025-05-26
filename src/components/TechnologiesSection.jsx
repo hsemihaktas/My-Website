@@ -27,10 +27,7 @@ const TechnologiesSection = ({ project }) => {
                 alt={tech}
                 className="w-full h-full object-contain"
               />
-              {/* Tooltip */}
-              <span className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 text-sm text-white bg-[#213555] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-                {tech}
-              </span>
+
             </li>
           ))
         ) : (
