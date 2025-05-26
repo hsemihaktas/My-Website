@@ -1,45 +1,39 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://hsemihaktas.vercel.app/</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://hsemihaktas.vercel.app/project/blur-face</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hsemihaktas.vercel.app/project/property-website</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hsemihaktas.vercel.app/project/pae-website</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hsemihaktas.vercel.app/project/now-yapi-website</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hsemihaktas.vercel.app/project/riot-twitch-bot</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hsemihaktas.vercel.app/project/riot-twitch-bot-website</loc>
-    <lastmod>2024-05-26</lastmod>
-    <changefreq>never</changefreq>
-    <priority>0.8</priority>
-  </url>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://hsemihaktas.vercel.app/</loc>
+	<lastmod>2025-05-26T19:55:39+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://hsemihaktas.vercel.app/project/blur-face</loc>
+	<lastmod>2025-05-26T19:55:39+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://hsemihaktas.vercel.app/project/property-website</loc>
+	<lastmod>2025-05-26T19:55:39+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://hsemihaktas.vercel.app/project/pae-website</loc>
+	<lastmod>2025-05-26T19:55:39+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://hsemihaktas.vercel.app/project/now-yapi-website</loc>
+	<lastmod>2025-05-26T19:55:39+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://hsemihaktas.vercel.app/project/riot-twitch-bot</loc>
+	<lastmod>2025-05-26T19:55:39+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://hsemihaktas.vercel.app/project/riot-twitch-bot-website</loc>
+	<lastmod>2025-05-26T19:55:39+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
 </urlset>
