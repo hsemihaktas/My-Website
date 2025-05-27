@@ -39,6 +39,25 @@
   },
   {
     "title": {
+      "EN": "Birthday Organization Website",
+      "TR": "Doğum Günü Organizasyon Web Sitesi"
+    },
+    "description": {
+      "EN": "-Developed a vibrant and user-friendly website for birthday party planning. -Built with Next.js and integrated EmailJS for seamless contact form functionality. -Offers customized birthday packages and online reservation features to enhance user engagement and booking experience.",
+      "TR": "-Doğum günü partisi planlaması için canlı ve kullanıcı dostu bir web sitesi geliştirdim. -İletişim formu işlevselliği için EmailJS entegrasyonu ile Next.js kullanılarak oluşturuldu. -Kullanıcı etkileşimini ve rezervasyon deneyimini artırmak amacıyla kişiye özel doğum günü paketleri ve online rezervasyon özellikleri sunar."
+    },
+    "shortDescription": {
+      "EN": "A birthday party organization website with online reservation and contact form via EmailJS.",
+      "TR": "EmailJS ile iletişim formu ve online rezervasyon özellikli doğum günü organizasyon web sitesi."
+    },
+    "codeLink": "https://github.com/hsemihaktas/Birthday-Organization",
+    "imageFile": "Birthday-Organization.jpeg",
+    "projectSite": "https://birthday-organization.vercel.app/",
+    "url": "/project/birthday-organization",
+    "technologies": ["NextJS", "TailwindCSS", "HTML5", "CSS3", "JavaScript"]
+  },
+  {
+    "title": {
       "EN": "PAE Website",
       "TR": "PAE Web Sitesi"
     },
