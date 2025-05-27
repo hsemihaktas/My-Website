@@ -34,7 +34,7 @@ const ProjeCard = ({ project }) => {
           </div>
           <div className="flex mt-2 justify-end">
             <button
-              className="text-sm lg:text-base py-2 px-6 bg-[#F1F1F1] hover:text-white rounded-full shadow-lg transition duration-300 mb-4 dark:hover:bg-[#1F2937] dark:text-[#1F2937] hover:bg-[#B89A82] text-[#6F4F34]"
+              className="text-sm lg:text-base py-2 px-6 rounded-full shadow-lg transition duration-300 mb-4 bg-[#F1F1F1] hover:bg-[#B89A82] dark:hover:bg-[#1F2937] text-[#6F4F34] dark:text-[#1F2937] hover:text-white dark:hover:text-white"
               onClick={handleDetailClick}
             >
               {language === "en" ? "View Detail" : "Detayı Gör"}
