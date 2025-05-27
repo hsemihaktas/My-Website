@@ -5,7 +5,7 @@ const DescriptionSection = ({ project }) => {
 
   return (
     <div>
-      <h2 className="text-2xl font-semibold dark:text-[#8EAED9]text-[#6F4F34]">
+      <h2 className="text-2xl font-semibold dark:text-[#8EAED9] text-[#6F4F34]">
         {language === "TR" ? "Projeye Genel Bakış" : "Project Overview"}
       </h2>
       <ul className="list-disc pl-6 text-lg leading-relaxed dark:text-white text-black">
