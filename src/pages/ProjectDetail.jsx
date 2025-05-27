@@ -27,7 +27,7 @@ const ProjectDetail = () => {
           <div className="flex items-center mb-4 p-4">
             <button
               onClick={() => navigate("/")}
-              className="hover:text-[#4F709C] mr-4 dark:text-[#8EAED9] text-[#6F4F34]"
+              className="dark:hover:text-[#1F2937] hover:text-[#FEF3E2] mr-4 dark:text-[#8EAED9] text-[#6F4F34]"
             >
               <span className="text-4xl">&#8592;</span>
             </button>
