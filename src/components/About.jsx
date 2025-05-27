@@ -1,9 +1,6 @@
-import React from "react";
-import { useDarkMode } from "../context/DarkModeContext";
 import { useLanguage } from "../context/LanguageContext";
 
 export const About = () => {
-  const { darkMode } = useDarkMode();
   const { language } = useLanguage();
 
   // İçerikler
@@ -40,7 +37,7 @@ export const About = () => {
       <div className="py-3 w-full">
         <div className="text-5xl pb-2 ">
           {language === "EN" && content[language].title}{" "}
-          <span className={`${darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"}`}>
+          <span className="dark:text-[#8EAED9] text-[#6F4F34]">
             Semih
           </span>
           {language === "TR" && content[language].title}{" "}

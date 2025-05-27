@@ -1,17 +1,12 @@
-import React from "react";
-import { useDarkMode } from "../context/DarkModeContext";
 import { useLanguage } from "../context/LanguageContext";
 
 const TechnologiesSection = ({ project }) => {
-  const { darkMode } = useDarkMode();
   const { language } = useLanguage();
   
   return (
     <div className="w-full mb-6">
       <h2
-        className={`text-2xl font-semibold text-[#213555] mb-4 ${
-          darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"
-        }`}
+        className="text-2xl font-semibold mb-4 dark:text-[#8EAED9] text-[#6F4F34]"
       >
         {language === "TR" ? "Kullanılan Teknolojiler" : "Technologies Used"}
       </h2>

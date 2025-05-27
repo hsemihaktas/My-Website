@@ -1,9 +1,6 @@
-import React from "react";
-import { useDarkMode } from "../context/DarkModeContext";
 import { useLanguage } from "../context/LanguageContext";
 
 export const Education = () => {
-  const { darkMode } = useDarkMode();
   const { language } = useLanguage();
 
   const content = {
@@ -38,11 +35,7 @@ export const Education = () => {
     <>
       <div className="py-3">
         <div className="text-5xl py-2">{content[language].title}</div>
-        <div
-          className={`text-2xl flex ${
-            darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"
-          }`}
-        >
+        <div className="text-2xl flex dark:text-[#8EAED9]text-[#6F4F34]">
           <span className="flex-grow">{content[language].university}</span>
           <span className="ml-auto">3.21/4</span>
         </div>

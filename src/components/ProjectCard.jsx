@@ -1,30 +1,20 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
-import { useDarkMode } from "../context/DarkModeContext";
-import { useLanguage } from "../context/LanguageContext"; // Dil seçimi için ekliyoruz
+import { useLanguage } from "../context/LanguageContext";
 
 const ProjeCard = ({ project }) => {
   const navigate = useNavigate();
-  const { darkMode } = useDarkMode();
-  const { language } = useLanguage(); // Dil seçimini alıyoruz
+  const { language } = useLanguage();
 
   // Dil bazında proje verisini alıyoruz
-  const title = project.title[language]; // project.title.tr veya project.title.en
-  const shortDescription = project.shortDescription[language]; // Aynı şekilde kısa açıklama
+  const title = project.title[language];
+  const shortDescription = project.shortDescription[language];
 
   const handleDetailClick = () => {
     navigate(`${project.url}`);
   };
 
   return (
-    <div
-      className={`group lg:w-full w-full h-auto p-6 my-6 shadow-lg hover:shadow-xl hover:scale-105 transition-all transform duration-300 rounded-lg border-2 
-      ${
-        darkMode
-          ? "bg-[#374151] text-white border-[#4B5563]"
-          : "bg-[#f1dfd4] text-black border-[#D8C4B6]"
-      }`}
-    >
+    <div className="group lg:w-full w-full h-auto p-6 my-6 shadow-lg hover:shadow-xl hover:scale-105 transition-all transform duration-300 rounded-lg border-2 dark:bg-[#374151] dark:text-white dark:border-[#4B5563] bg-[#f1dfd4] text-black border-[#D8C4B6]">
       <div className="flex flex-col lg:flex-row ">
         <div className="w-full lg:w-3/5 lg:mr-6">
           {project.imageFile && (
@@ -36,11 +26,7 @@ const ProjeCard = ({ project }) => {
           )}
         </div>
         <div className="flex flex-col w-full lg:w-2/5">
-          <h2
-            className={`text-xl font-semibold mb-2 ${
-              darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"
-            }`}
-          >
+          <h2 className="text-xl font-semibold mb-2 dark:text-[#8EAED9]text-[#6F4F34]">
             {title}
           </h2>
           <div className="custom-list text-sm space-y-1">
@@ -48,12 +34,7 @@ const ProjeCard = ({ project }) => {
           </div>
           <div className="flex mt-2 justify-end">
             <button
-              className={`text-sm lg:text-base py-2 px-6 bg-[#F1F1F1] hover:text-white rounded-full shadow-lg transition duration-300 mb-4
-                ${
-                  darkMode
-                    ? "hover:bg-[#1F2937] text-[#1F2937]"
-                    : "hover:bg-[#B89A82] text-[#6F4F34]"
-                }`}
+              className="text-sm lg:text-base py-2 px-6 bg-[#F1F1F1] hover:text-white rounded-full shadow-lg transition duration-300 mb-4 dark:hover:bg-[#1F2937] dark:text-[#1F2937] hover:bg-[#B89A82] text-[#6F4F34]"
               onClick={handleDetailClick}
             >
               {language === "en" ? "View Detail" : "Detayı Gör"}

@@ -1,10 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 import SocialIcons from "./SocialIcons";
-import { useDarkMode } from "../context/DarkModeContext";
 import { useLanguage } from "../context/LanguageContext";
 
 export const WelcomePage = () => {
-  const { darkMode } = useDarkMode();
   const { language } = useLanguage();
 
   return (
@@ -25,7 +23,7 @@ export const WelcomePage = () => {
             <h2 className="text-2xl font-medium mt-2">
               {language === "TR" ? "Ben " : "I'm "}
               <span
-                className={`${darkMode ? "text-[#8EAED9]" : "text-[#6F4F34]"}`}
+                className="dark:text-[#8EAED9] text-[#6F4F34]"
               >
                 {language === "TR" ? "Ön Yüz Geliştiricisiyim" : "Front-end Developer"}
               </span>
