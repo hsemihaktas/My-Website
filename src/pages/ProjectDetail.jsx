@@ -1,5 +1,5 @@
-import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import data from "../data/projects.json";
 import ImageSection from "../components/ImageSection";
 import TechnologiesSection from "../components/TechnologiesSection";
@@ -19,6 +19,25 @@ const ProjectDetail = () => {
 
   return (
     <>
+      <Helmet>
+        <title>{project.meta?.title[language]}</title>
+        <meta property="title" content={project.meta?.title[language]} />
+        <meta property="og:title" content={project.meta?.title[language]} />
+        <meta
+          name="description"
+          content={project.meta?.description[language]}
+        />
+        <meta
+          property="og:description"
+          content={project.meta?.description[language]}
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content={`https://hsemihaktas.vercel.app${project.url}`}
+        />
+      </Helmet>
+
       <div className="absolute top-4 right-4 z-10">
         <ToggleButton />
       </div>
