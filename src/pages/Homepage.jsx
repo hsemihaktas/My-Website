@@ -28,9 +28,9 @@ function App() {
       <Helmet>
         {/* Sayfa başlığı ve açıklamalar */}
         <title>{meta[language].title}</title>
-        <meta property="title" content={meta[language].title} />
+        <meta name="title" content={meta[language].title} />
         <meta property="og:title" content={meta[language].title} />
-        <meta property="description" content={meta[language].description} />
+        <meta name="description" content={meta[language].description} />
         <meta property="og:description" content={meta[language].description} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://hsemihaktas.vercel.app/" />

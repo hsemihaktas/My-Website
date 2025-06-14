@@ -21,7 +21,7 @@ const ProjectDetail = () => {
     <>
       <Helmet>
         <title>{project.meta?.title[language]}</title>
-        <meta property="title" content={project.meta?.title[language]} />
+        <meta name="title" content={project.meta?.title[language]} />
         <meta property="og:title" content={project.meta?.title[language]} />
         <meta
           name="description"
